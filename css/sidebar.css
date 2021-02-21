@@ -1,0 +1,35 @@
+.sidebar {
+    position: fixed;
+    background-color: #fff;
+    width: 35%;
+    left: -30%;
+    transition: left, .5s, 0.7s;
+    z-index: 2;
+    bottom: 5px;
+    border: 0px #74d3cc solid;
+    line-height: 20px;
+    
+}
+.sidebar:hover {
+    left: 0;
+}
+.inSidebar {
+    position: absolute;
+    width: 20%;
+    background-color: chocolate;
+    z-index: 3;
+}
+.inSidebar2 {
+    position: absolute;
+    width: 80%;
+    z-index: 3;
+}
+.inSidebar, .inSidebar2:hover {
+    left: 0;
+}
+a. {
+    text-decoration: none;
+}
+.a:hover {
+    text-decoration: underline;
+}
